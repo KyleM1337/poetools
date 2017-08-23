@@ -9,6 +9,9 @@
 # KDE
 .directory
 
+# Gradle
+build/
+
 ############################
 #Eclipse Specific GitIgnore#
 ############################
