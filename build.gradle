@@ -1,9 +1,11 @@
 apply plugin: 'java-library'
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
+    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.3'
+    implementation 'org.mockito:mockito-inline:2.8.47'
     testImplementation 'junit:junit:4.12'
 }
