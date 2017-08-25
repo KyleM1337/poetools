@@ -4,5 +4,10 @@ pipelines:
     - step:
         caches:
           - gradle
+          - gradlewrapper
         script:
           - bash ./gradlew build
+
+definitions:
+  caches:
+    gradlewrapper: ~/.gradle/wrapper
