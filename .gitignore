@@ -32,3 +32,6 @@ local.properties
 
 # CDT-specific
 .cproject
+
+#intellij
+.iml
