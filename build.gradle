@@ -1,4 +1,8 @@
-apply plugin: 'java-library'
+plugins {
+    id 'java'
+    id 'jacoco'
+    id 'com.github.kt3k.coveralls' version '2.6.3'
+}
 
 repositories {
     mavenCentral()
@@ -12,3 +16,11 @@ dependencies {
     implementation 'org.mockito:mockito-inline:2.8.47'
     testImplementation 'junit:junit:4.12'
 }
+
+jacocoTestReport {
+    reports {
+        xml.enabled = true // coveralls plugin depends on xml format report
+        html.enabled = true
+    }
+}
+
