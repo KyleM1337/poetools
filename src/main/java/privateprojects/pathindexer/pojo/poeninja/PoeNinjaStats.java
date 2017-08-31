@@ -1,4 +1,4 @@
-package privateprojects.pathindexer.pojo;
+package privateprojects.pathindexer.pojo.poeninja;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -6,7 +6,7 @@ import java.net.URI;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import privateprojects.pathindexer.http.HttpClientWrapper;
-import privateprojects.pathindexer.pojo.PoeNinjaStats;
+import privateprojects.pathindexer.pojo.poeninja.PoeNinjaStats;
 
 public class Main {
   private static final URI POE_URI =
